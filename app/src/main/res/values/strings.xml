@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Android開発記録アプリ</string>
+
+    <string name="tv_login_google">【Googleアカウントをお持ちの方】</string>
+    <string name="tv_login_mail">【メールでユーザー登録した方】</string>
+    <string name="tv_link_signin"><u>ユーザー登録はこちら</u></string>
+    <string name="bt_login_mail">メールでログイン</string>
+
+    <string name="tv_mail">メールアドレス</string>
+    <string name="tv_password">パスワード</string>
+    <string name="bt_signin">登録</string>
+    <string name="bt_login">ログイン</string>
+
+    <string name="tv_app">アプリ名</string>
+    <string name="tv_explanation">説明</string>
+    <string name="tv_tech">技術</string>
+    <string name="bt_update">更新</string>
+    <string name="bt_add">追加</string>
+
+    <string name="dialog_title">確認</string>
+    <string name="dialog_explanation">本当に削除してもよろしいでしょうか？</string>
+    <string name="dialog_yes">はい</string>
+    <string name="dialog_no">いいえ</string>
+
+    <string name="item_logout">ログアウト</string>
+    <string name="item_delete">削除</string>
+
+    <string name="sb_signin">登録しました。ログインしてください。</string>
+    <string name="sb_login">ログインしました。</string>
+    <string name="sb_logout">ログアウトしました。</string>
+    <string name="sb_add">追加しました。</string>
+    <string name="sb_update">更新しました。</string>
+    <string name="sb_delete">削除しました。</string>
+
+    <string name="sb_failure_google_signin">Googleサインインに失敗しました。</string>
+    <string name="sb_no_input">記入されていません。</string>
+
+</resources>
