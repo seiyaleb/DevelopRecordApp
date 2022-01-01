@@ -128,6 +128,10 @@ public class ListFragment extends Fragment {
         database = FirebaseDatabase.getInstance();
         reference = database.getReference().child("users").child(uid);
 
+        //データ読み取り→表示
+        OperateDB operateDB = new OperateDB(reference,getParentFragmentManager());
+        operateDB.read_data(list_record,getActivity(),lv_record);
+
         //リストビューの各アイテムを選択時
         lv_record.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
@@ -191,10 +195,6 @@ public class ListFragment extends Fragment {
 
         //データ処理のスナックバー表示
         display_sb_data();
-
-        //データ読み取り→表示
-        OperateDB operateDB = new OperateDB(reference,getParentFragmentManager());
-        operateDB.read_data(list_record,getActivity(),lv_record);
     }
 
     @Override
